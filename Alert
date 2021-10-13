@@ -1,0 +1,4 @@
+let alert = UIAlertController(title: "오류", message: "내용~", preferredStyle: UIAlertController.Style.alert)
+                        let defaultAction = UIAlertAction(title: "확인", style: .destructive, handler : nil)
+                        alert.addAction(defaultAction)
+                        self.present(alert, animated: false, completion: nil)
