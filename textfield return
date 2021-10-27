@@ -1,0 +1,21 @@
+1. class (이름): UITextFieldDelegate{
+  
+}
+
+2. func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+       //액션
+        return true
+    }
+    
+3. 예시 (GETHUB에서)
+func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        print("return tapped")
+        if (userName.text == "" || userName.text!.contains(" ")){
+            alert()
+        }
+        else {
+            nextView()
+        }
+        userName.text = ""
+        return true
+    }
