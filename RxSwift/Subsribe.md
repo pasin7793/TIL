@@ -4,7 +4,7 @@
 
 ## Subscribe가 하는일
 Observable을 Subscribe하면 Subscribe내부에서
-- `observer`를 생성한다
+- `subscribe`는 `observable`의 `stream`을 관찰하고 구독 해서 받는 역할을 한다.
 - 생성한 `observer`를 내부에서 생성한 `observerble`에 붙힌다
 - 붙인 그 구독체를 반환한다
 
