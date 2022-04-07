@@ -12,7 +12,7 @@ typealias (사용할 별명) = (존재하는 타입)
 
 ### 언제 사용할 수 있을까?
 
-* 1. Built-in type(String, Int)
+* Built-in type(String, Int)
 String, Int, Float 등의 모든 내장 데이터 유형에 대해 typealias로 사용할 수 있다.
 
 ```
@@ -25,3 +25,18 @@ var name: MyName = "junhwa"
 var name2: String = "junhwa"
 ```
 name, name2는 같은 String 타입이다.
+
+* user defiend types
+프로그래밍을 하면서 자신만의 데이터 유형을 만드는 많은 경우가 있다.
+class, struct, enum에 typealias를 사용할 수 있다.
+
+```
+class Employee{ 
+
+} 
+var employees1: Array<Employee> = [] 
+
+typealias Employees = Array<Employee> 
+var employees2: Employees = []
+
+```
