@@ -1,4 +1,4 @@
-#Typealias란?
+# Typealias란?
 
 typealias란 타입에 붙을 수 있는 별칭, 약칭이다.
 
