@@ -1,4 +1,4 @@
-# Coordinator pattern
+# Coordinator 패턴
 
 ### Coordinator의 시작
 
