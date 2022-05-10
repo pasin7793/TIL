@@ -16,6 +16,8 @@ CocoaPods
 
 ```
 pod 'Moya'
+
+pod 'Moya/RxSwift'
 ```
 
 # TargetType 구현
