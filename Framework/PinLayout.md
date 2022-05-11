@@ -12,10 +12,10 @@ PinLayout은 manual layouting(수동 레이아웃)보다 빠르거나 같으며 
 
 # PinLayout 사용
 
-## 1. addSubView 하기
+### 1. addSubView 하기
 기본적으로 addSubview까지는 해야한다.
 
-## 2. Layout 설정
+### 2. Layout 설정
 SnapKit이 snp 이였다면 PinLayout은 pin인 느낌?
 ex)
 ```
@@ -24,7 +24,7 @@ label.pin.top(10).bottom(10).left(10).right(10)
 label.pin.all(10)
 ```
 
-## 사용법
+### 사용법
 ### CocoaPods
 ```
 pod PinLayout
