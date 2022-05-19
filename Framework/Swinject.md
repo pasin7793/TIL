@@ -30,7 +30,7 @@ var restaurantLister:RestaurantLister = ServerRestaurantLister.shared // 이 코
 let restaurantLister:RestaurantLister // 이렇게 변경
 ```
 
-이제 생성자에서 restaurantLister 매개변수를 전달 받아서 restaurantLister에 주입해주는 코드를 추가해줍니다
+이제 `생성자`에서 `restaurantLister 매개변수`를 전달 받아서 `restaurantLister`에 `주입`해주는 코드를 추가해줍니다
 
 ```
 init(restaurantLister: RestaurantLister) {
