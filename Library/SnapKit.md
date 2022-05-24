@@ -25,6 +25,6 @@ nameLabel.snp.makeConstraints { make in
 }
 ```
 
-[SnapKit 깃허브](github.com/SnapKit/SnapKit)
+[SnapKit 깃허브](https://github.com/SnapKit/SnapKit)
 
 위에 선언한 center 뿐만 아니라 left,right,top,bottom도 있다 
